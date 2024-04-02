@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":1339,"name":"castledialogviews.sok","sourcebytes":[79,75],"value":"OK"},
+{"hash":77089212,"name":"castledialogviews.scancel","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"},
+{"hash":24515,"name":"castledialogviews.syes","sourcebytes":[89,101,115],"value":"Yes"},
+{"hash":1359,"name":"castledialogviews.sno","sourcebytes":[78,111],"value":"No"}
+]}

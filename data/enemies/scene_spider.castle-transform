@@ -1,0 +1,47 @@
+{
+  "$$ClassName" : "TCastleScene",
+  "AnimateOnlyWhenVisible" : true,
+  "AutoAnimation" : "idle",
+  "ExposeTransforms" : [
+  ],
+  "Name" : "Spider23",
+  "ProcessEvents" : true,
+  "RenderOptions" : {
+    "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+  },
+  "ScalePersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent",
+    "X" : -1.0000000000000000E+000
+  },
+  "TranslationPersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent",
+    "X" : -2.9000000000000000E+003,
+    "Y" : -1.8260028076171875E+002
+  },
+  "Url" : "castle-data:/enemies/spider.castle-sprite-sheet",
+  "$Behaviors" : [
+    {
+      "$$ClassName" : "TCastleRigidBody",
+      "AngularVelocityDamp" : 0.0000000000000000E+000,
+      "Layer" : 2,
+      "LinearVelocityDamp" : 0.0000000000000000E+000,
+      "LockRotation" : [
+        0,
+        1,
+        2
+      ],
+      "LockTranslation" : [
+        2
+      ],
+      "Name" : "RigidBody168"
+    },
+    {
+      "$$ClassName" : "TCastleSphereCollider",
+      "Friction" : 1.0000000149011612E-001,
+      "Mode2D" : true,
+      "Name" : "SphereCollider71",
+      "Restitution" : 5.0000000745058060E-002,
+      "SizeScale" : 8.9999997615814209E-001
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$$ClassName" : "TCastleScene",
+  "AutoAnimation" : "idle",
+  "ExposeTransforms" : [
+  ],
+  "Name" : "ScenePlayer",
+  "ProcessEvents" : true,
+  "RenderOptions" : {
+    "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+  },
+  "RotationPersistent" : {
+    "$$ClassName" : "TCastleVector4RotationPersistent",
+    "Z" : 1.0000000000000000E+000
+  },
+  "TranslationPersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent",
+    "X" : -2.5885895996093750E+003,
+    "Y" : -3.2973001098632812E+002,
+    "Z" : 1.0000000000000000E+001
+  },
+  "Url" : "castle-data:/player/player.castle-sprite-sheet",
+  "$Behaviors" : [
+    {
+      "$$ClassName" : "TCastleRigidBody",
+      "AngularVelocityDamp" : 0.0000000000000000E+000,
+      "Layer" : 1,
+      "LinearVelocityDamp" : 0.0000000000000000E+000,
+      "LockRotation" : [
+        0,
+        1,
+        2
+      ],
+      "LockTranslation" : [
+        2
+      ],
+      "Name" : "PlayerRigidBody"
+    },
+    {
+      "$$ClassName" : "TCastleCapsuleCollider",
+      "AutoSize" : false,
+      "Friction" : 2.5000000000000000E-001,
+      "Height" : 3.5000000000000000E+001,
+      "Mass" : 5.0000000000000000E+001,
+      "Mode2D" : true,
+      "Name" : "CapsuleCollider",
+      "Radius" : 2.7000000000000000E+001,
+      "Restitution" : 9.9999997473787516E-005,
+      "SizeScale" : 1.1499999761581421E+000,
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent",
+        "Y" : -3.0000000000000000E+000
+      }
+    }
+  ]
+}
