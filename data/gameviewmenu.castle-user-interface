@@ -1,11 +1,13 @@
 {
+  "$$ClassName" : "TCastleUserInterface",
   "FullSize" : true,
   "Name" : "RootGroup",
   "$Children" : [
     {
+      "$$ClassName" : "TCastleImageControl",
       "Content" : {
-        "URL" : "castle-data:/background/colored_grass.png",
-        "$ClassName" : "TCastleImagePersistent"
+        "$$ClassName" : "TCastleImagePersistent",
+        "Url" : "castle-data:/background/colored_grass.png"
       },
       "HeightFraction" : 1.0000000000000000E+000,
       "HorizontalAnchorParent" : "hpMiddle",
@@ -18,152 +20,171 @@
       "WidthFraction" : 1.0000000000000000E+000,
       "$Children" : [
         {
+          "$$ClassName" : "TCastleVerticalGroup",
           "HorizontalAnchorParent" : "hpMiddle",
           "HorizontalAnchorSelf" : "hpMiddle",
           "Name" : "VerticalGroup1",
           "Spacing" : 2.0000000000000000E+001,
-          "VerticalAnchorDelta" : -1.2000000000000000E+002,
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "Y" : -1.2000000000000000E+002
+          },
           "VerticalAnchorParent" : "vpMiddle",
           "VerticalAnchorSelf" : "vpMiddle",
           "$Children" : [
             {
+              "$$ClassName" : "TCastleButton",
               "Caption" : "PLAY",
               "CustomBackgroundDisabled" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundFocused" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundNormal" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundPressed" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "Image" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "MinWidth" : 3.0000000000000000E+002,
               "Name" : "ButtonPlay",
               "PaddingHorizontal" : 3.0000000000000000E+001,
               "PaddingVertical" : 3.0000000000000000E+001,
               "VerticalAnchorParent" : "vpTop",
-              "VerticalAnchorSelf" : "vpTop",
-              "$Children" : [
-              ],
-              "$ClassName" : "TCastleButton"
+              "VerticalAnchorSelf" : "vpTop"
             },
             {
+              "$$ClassName" : "TCastleButton",
               "AutoSizeHeight" : false,
               "Caption" : "OPTIONS",
               "CustomBackgroundDisabled" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundFocused" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundNormal" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundPressed" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "Height" : 7.5000000000000000E+001,
               "Image" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "MinWidth" : 3.0000000000000000E+002,
               "Name" : "ButtonOptions",
               "PaddingHorizontal" : 3.0000000000000000E+001,
               "PaddingVertical" : 3.0000000000000000E+001,
-              "VerticalAnchorDelta" : -1.1200000000000000E+002,
+              "TranslationPersistent" : {
+                "$$ClassName" : "TCastleVector2Persistent",
+                "Y" : -1.1700000762939453E+002
+              },
               "VerticalAnchorParent" : "vpTop",
-              "VerticalAnchorSelf" : "vpTop",
-              "$Children" : [
-              ],
-              "$ClassName" : "TCastleButton"
+              "VerticalAnchorSelf" : "vpTop"
             },
             {
+              "$$ClassName" : "TCastleButton",
               "AutoSizeHeight" : false,
               "Caption" : "Credits",
               "CustomBackgroundDisabled" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundFocused" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundNormal" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundPressed" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "Height" : 7.5000000000000000E+001,
               "Image" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "MinWidth" : 3.0000000000000000E+002,
               "Name" : "ButtonCredits",
               "PaddingHorizontal" : 3.0000000000000000E+001,
               "PaddingVertical" : 3.0000000000000000E+001,
-              "VerticalAnchorDelta" : -2.0700000000000000E+002,
+              "TranslationPersistent" : {
+                "$$ClassName" : "TCastleVector2Persistent",
+                "Y" : -2.1200000000000000E+002
+              },
               "VerticalAnchorParent" : "vpTop",
-              "VerticalAnchorSelf" : "vpTop",
-              "$Children" : [
-              ],
-              "$ClassName" : "TCastleButton"
+              "VerticalAnchorSelf" : "vpTop"
             },
             {
+              "$$ClassName" : "TCastleButton",
               "AutoSizeHeight" : false,
               "Caption" : "QUIT",
               "CustomBackgroundDisabled" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundFocused" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundNormal" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "CustomBackgroundPressed" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "Height" : 7.5000000000000000E+001,
               "Image" : {
-                "$ClassName" : "TCastleImagePersistent"
+                "$$ClassName" : "TCastleImagePersistent"
               },
               "MinWidth" : 3.0000000000000000E+002,
               "Name" : "ButtonQuit",
               "PaddingHorizontal" : 3.0000000000000000E+001,
               "PaddingVertical" : 3.0000000000000000E+001,
-              "VerticalAnchorDelta" : -3.0200000000000000E+002,
+              "TranslationPersistent" : {
+                "$$ClassName" : "TCastleVector2Persistent",
+                "Y" : -3.0700000000000000E+002
+              },
               "VerticalAnchorParent" : "vpTop",
-              "VerticalAnchorSelf" : "vpTop",
-              "$Children" : [
-              ],
-              "$ClassName" : "TCastleButton"
+              "VerticalAnchorSelf" : "vpTop"
             }
-          ],
-          "$ClassName" : "TCastleVerticalGroup"
+          ]
         }
-      ],
-      "$ClassName" : "TCastleImageControl"
+      ]
     },
     {
+      "$$ClassName" : "TCastleImageControl",
       "Content" : {
-        "URL" : "castle-data:/logo/logo.png",
-        "$ClassName" : "TCastleImagePersistent"
+        "$$ClassName" : "TCastleImagePersistent",
+        "Url" : "castle-data:/logo/logo.png"
       },
       "HorizontalAnchorParent" : "hpMiddle",
       "HorizontalAnchorSelf" : "hpMiddle",
       "Name" : "Logo",
-      "VerticalAnchorDelta" : -7.5000000000000000E+001,
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector2Persistent",
+        "Y" : -7.5000000000000000E+001
+      },
       "VerticalAnchorParent" : "vpTop",
       "VerticalAnchorSelf" : "vpTop",
       "$Children" : [
-      ],
-      "$ClassName" : "TCastleImageControl"
+        {
+          "$$ClassName" : "TCastleLabel",
+          "ColorPersistent" : {
+            "$$ClassName" : "TCastleColorPersistent",
+            "Blue" : 2.5500000000000000E+002,
+            "Green" : 2.5500000000000000E+002,
+            "Red" : 2.5500000000000000E+002
+          },
+          "FontSize" : 3.6000000000000000E+001,
+          "Name" : "LabelAI",
+          "Text" : [
+            "Artificial Inteligence"
+          ]
+        }
+      ]
     }
-  ],
-  "$ClassName" : "TCastleUserInterface"
+  ]
 }
